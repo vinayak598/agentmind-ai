@@ -6,6 +6,9 @@ import ThemeProvider from "@/components/ThemeProvider";
 export const metadata = {
   title: "AgentMind AI",
   description: "Future-safe AI product company",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
