@@ -104,7 +104,7 @@ export default function Navbar() {
               {/* HOME */}
               <a
                 href="/"
-                ref={(el) => (linkRefs.current["home"] = el)}
+                ref={(el) => {linkRefs.current["home"] = el;}}
                 onMouseEnter={() => updateIndicator("home")}
                 onMouseLeave={() => updateIndicator()}
                 className={`cursor-pointer ${
@@ -128,7 +128,7 @@ export default function Navbar() {
               >
                 <a
                   href="/products"
-                  ref={(el) => (linkRefs.current["products"] = el)}
+                  ref={(el) => {linkRefs.current["products"] = el;}}
                   className={`inline-flex items-center gap-1 cursor-pointer ${
                     pathname.startsWith("/products")
                       ? "opacity-100"
@@ -168,7 +168,7 @@ export default function Navbar() {
               {/* ABOUT */}
               <a
                 href="/about"
-                ref={(el) => (linkRefs.current["about"] = el)}
+                ref={(el) => {linkRefs.current["about"] = el;}}
                 onMouseEnter={() => updateIndicator("about")}
                 onMouseLeave={() => updateIndicator()}
                 className={`cursor-pointer ${
@@ -181,7 +181,7 @@ export default function Navbar() {
               {/* FOUNDER */}
               <a
                 href="/founder"
-                ref={(el) => (linkRefs.current["founder"] = el)}
+                ref={(el) => {linkRefs.current["founder"] = el;}}
                 onMouseEnter={() => updateIndicator("founder")}
                 onMouseLeave={() => updateIndicator()}
                 className={`cursor-pointer ${
@@ -194,7 +194,7 @@ export default function Navbar() {
               {/* CONTACT */}
               <a
                 href="/contact"
-                ref={(el) => (linkRefs.current["contact"] = el)}
+                ref={(el) => {linkRefs.current["contact"] = el;}}
                 onMouseEnter={() => updateIndicator("contact")}
                 onMouseLeave={() => updateIndicator()}
                 className={`cursor-pointer ${
