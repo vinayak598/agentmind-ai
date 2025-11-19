@@ -34,13 +34,13 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex items-center justify-center gap-4 mt-10">
           <Link href="/products">
-            <Button size="lg" className="hover:scale-[1.03] transition">
+            <Button className="px-6 py-3 text-lg hover:scale-[1.03] transition">
               Explore Products
             </Button>
           </Link>
 
           <Link href="/contact">
-            <Button variant="outline" size="lg" className="hover:scale-[1.03] transition">
+            <Button variant="outline" className="px-6 py-3 text-lg hover:scale-[1.03] transition">
               Talk to Us
             </Button>
           </Link>
