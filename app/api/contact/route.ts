@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   try {
     await resend.emails.send({
       from: "AgentMind AI <onboarding@resend.dev>",
-      to: "rcvinayakjv@gmail.com",
+      to: "vinayak.jvr@agentmindai.online",
       subject: "New Contact Form Submission",
       html: `
         <h2>New Contact Form Submission</h2>
